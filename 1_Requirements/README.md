@@ -24,7 +24,7 @@ O(N), the amount of memory needed to run the algorithm i.e, space complexity.
 
 ## Defining system
 
-![defining system](https://user-images.githubusercontent.com/62166597/114381286-931e9c80-9ba8-11eb-8995-0813aa988dba.png)
+![defining system](https://github.com/ushagurumurthy/C-miniproject/blob/master/1_Requirements/Defining%20system.png?raw=true)
 
 ## Explanation
   ### Hotel Management Features
@@ -37,6 +37,9 @@ O(N), the amount of memory needed to run the algorithm i.e, space complexity.
 6- Adding, Viewing, Editing, Deleting Records.
 7- The authorized users can add, delete, list, search, modify very easily and finely. It has speedy processing rate as the recorded data are stored in a computer memory.
 
+## SWOT Analysis
+
+<img width="750" alt="SWOT" src="https://user-images.githubusercontent.com/62166597/114440231-83727880-9be7-11eb-8c3c-04c4cf9fcc9f.PNG">
 
 ## 4W's and 1'H
    
