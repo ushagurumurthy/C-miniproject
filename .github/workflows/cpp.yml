@@ -2,7 +2,7 @@ name: C/C++ CI-BUILD
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   
 
 jobs:
