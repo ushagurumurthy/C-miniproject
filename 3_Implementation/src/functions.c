@@ -3,19 +3,20 @@
 #include<string.h>
 #include "header.h"
 
+//Instance field declaration
 FILE* view;
 FILE *fp;
 FILE* enter;
 char admin_entry[20] = {'y'};
 char user_entry[20] = {'y'};
 
-int check(char *pass,char *password)
+/*int check(char *pass,char *password)
 {
 	
 	 int c=strcmp(pass,password);
 	 return c;
 		
-}
+}*/
 
 //method declare to enter name
 void enter_name(){
