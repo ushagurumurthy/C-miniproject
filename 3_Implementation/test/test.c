@@ -4,7 +4,7 @@
 void setUp(){}
 void tearDown(){}
 void testforpasswd(void){
-	TEST_ASSERT_EQUAL(0,check("potato"));
+	TEST_ASSERT_EQUAL(0,check("potato","potato"));
 
 }
 int main()
