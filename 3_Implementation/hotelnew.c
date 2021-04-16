@@ -40,36 +40,28 @@ int main(){
 
         switch(a){
             case 1:{
-                char pass[10];
-                char filepass[10];
-                int i;
-
-                FILE *passw;
-                passw = fopen("pass.txt","r");
-
-                //admins password prompt
                 printf("\n Hello admin!\n Please enter the password to continue --> ");
 
-                for(i=0; i<6; i++){
-                    scanf("%s",pass);
-                    fscanf(passw,"%s",filepass);
-                    if (strcmp(filepass,pass) == 0) {
-                        printf("\n\nAccess granted!\n");
-                        fclose(passw);
-                        break;
-                    }
-                    else{
-                     printf("\nIncorrect password, please try again.");
-                     printf("\nYou have %d trys left ",5-i-1);
-                     printf("\n\nEnter password >> ");
-                    }
-                    if(i==4){
-                        fclose(passw);
-                        return 0;
-                    }
+                system("cls");
 
+                system("color 0A");
+
+                //customer data[20];
+                int c;
+                char pass[9],password[9]="admin123";
+                login:
+                printf("\n\n\t\tEnter the password to login at least 8 characters long:");
+                scanf("%s",pass);
+                c=check(pass,password);
+                if(c)
+                {
+                    system("color 04");
+                    printf("\nInvalid!");
+                    goto login;
 
                 }
+                system("color 0A");
+
 
                  //re-entry if
                 while(admin_entry[0] =='y'){
