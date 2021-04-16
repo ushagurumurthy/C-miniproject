@@ -64,28 +64,30 @@ O(N), the amount of memory needed to run the algorithm i.e, space complexity.
 
 ### High Level Requirements 
 
-| ID | Description | Category | Status | 
-| ----- | ----- | ------- | ---------|
-| HR01 | User should be able to view Hotel details | Techincal | TBD-S1 | 
-| HR02 | User should be able to record the customer details | Techincal | TBD-S1 |
-| HR03 | User should be able to view the customer details | Techincal | TBD-S1 |
-| HR04 | The System shall record the availability of rooms | Techincal | TBD-S1 |
-| HR05 | User should be able to allocate room number to customer | Techincal | TBD-S1 |
-| HR06 | The System shall check-in customers  | Technical | TBD-S1 |
-| HR07 | The System shall check-out customers  | Technical | TBD-S1 |
-| HR08 | Data should be stored when closing the system | Scenario | TBD-S1 |
+| ID | Description | Status | 
+| ----- | -----  | ---------|
+|HL01| User Shall be able to login the system. | Done |
+|HL02| User Shall be able to book the room.  | Done |
+|HL03| User Shall be able to view the available rooms. | Done |
+|HL04| User Shall be able to print the bill. | Done |
+|HL05| User Shall be able to cancel the rooms. | Done |
+|HL06| Data should be saved in case of failure.  | TBD |
+|HL07| Proper GUI can be implemented for further. | TBD |
 
 ###  Low level Requirements
  
-| ID | Description | HLR ID | Status (Implemented/Future) |
-| ------ | --------- | ------ | ----- |
-| LR01 | User have to store the customer name, address, mobile number and period of stay of customer | HR02 | TBD-S1 |
-| LR02 | Finding the customer details by simply just entering the room number of that particular customer | HR03 | TBD-S1 |
-| LR03 | After allocating room for previous customer, it should be able to show the availability of rooms for current customer | HR04 | TBD-S1 |
-| LR04 | After user stores the customer details and check the availabilty of rooms then user should provide vacancy room according to the customer requirements | HR05 | TBD-S1 |
-| LR06 | The System shall check-in the customer by their requirements and availablity in the hotel that is for how many days rooms are vacancy | HR06| TBD-S1 |
-| LR07 | The System shall check-out the customer by deallocating their rooms by simply just enter customer room number it will provide details. | HR07| TBD-S1 |
-| LR08 | Every time after allocating room for the customer, it will saves the vacancies of the rooms and after deallocating it will automatically update the vacancies of the rooms | HR03,HR04,HR05 | TBD-S1 |
+| ID | Description  | Status (Done/Future) |
+| ------ | ---------  | ----- |
+| LL01 |  The user will be able to login successfully with the valid credential. |Done|
+| LL02 | If user entered the incorrect login credentials then ‘SORRY !!!!LOGIN IS UNSUCESSFUL’ message should be displayed. |Done |
+| LL03 | If user entered the incorrect login credentials for 4 times then ‘Sorry you have entered the wrong username and password forfour times!!!’message should be displayed. |Done |
+| LL04 | If the wrong choice number is entered then message of ‘Invalid Choice’ should be displayed. | Done |
+| LL05 | After providing the required details for the booking the room and yes is provided for confirming the booking, the booking should be successful.| Done |
+| LL06 | If all the required details for the booking the room are not provided then booking should be unsuccessful.| Done |
+| LL07 | If the proper guest name is provided then the room should be cancelled successfully.| Done |
+| LL08 | If the proper guest name is not provided then the message ‘No record found for this Name’ should be displayed.| Done |
+| LL09 | For validating the booking if the proper guest name is provided then the message ‘Guest name exist check the list to confirm Once’ should be displayed.| Done |
+| LL10 | For validating the booking if the incorrect guest name is provided then the message ‘No Record Found’ should be displayed.| Done |
 
 
 
