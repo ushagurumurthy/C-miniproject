@@ -12,8 +12,7 @@
 
 | Code Quality | Unity | [Git Inspector](using github.io option) |
 |-----------------|-----------------|-----------------|
-| [![C/C++ CI-BUILD](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/cpp.yml/badge.svg?branch=master)](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/cpp.yml)
-  | [![Unit Testing - Unity](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/unity.yml/badge.svg?branch=master)](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/unity.yml) |[![Contribution Check - Git Inspector](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/git_inspector.yml/badge.svg?branch=master)](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/git_inspector.yml)|
+| [![C/C++ CI-BUILD](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/cpp.yml/badge.svg?branch=master)](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/cpp.yml)|[![Unit Testing - Unity](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/unity.yml/badge.svg?branch=master)](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/unity.yml)|[![Contribution Check - Git Inspector](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/git_inspector.yml/badge.svg?branch=master)](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/git_inspector.yml)|
  
  
  
