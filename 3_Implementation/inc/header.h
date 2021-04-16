@@ -18,5 +18,6 @@ void find_name();
 void find_room();
 void checkout_guest();
 void view_bookings();
+int check(char *pass,char *password);
 
 #endif
