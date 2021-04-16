@@ -1,81 +1,56 @@
-#include "fun.h"
-#include "unity.h"
- /*char name[20];
-  char address[50];
-  char phno[10];
-  int period;*/
-  char name[20];
- int room;
- char wifi[20];
- char bf[20];
-//int bill;
+#include"unity.h"
+#include"header.h"
+#include<string.h>
+
+#define PROJECT_NAME "Hotelmanagement"
+
+//void test_enter_name();
+void test_find_name();
+void test_checkout_guest();
+void test_find_room();
+
 /* Required by the unity test framework */
-void setUp()
-{
-}
+void setUp(){}
 /* Required by the unity test framework */
-void tearDown()
+void tearDown(){}
+
+/* Start of the application test */
+int main()
 {
+/* Initiate the Unity Test Framework */
+  UNITY_BEGIN();
+  /* Run Test functions */
+  //RUN_TEST(test_enter_name);
+  RUN_TEST(test_find_name);
+  RUN_TEST(test_checkout_guest);
+  RUN_TEST(test_find_room);  
+
+  /* Close the Unity Test Framework */
+  return UNITY_END();
 }
-/*void test_avail(void){
 
-    TEST_ASSERT_EQUAL(2,100);
-    
-}
-void test_customer_details(void){
-    strcpy(name,"meher");
-    strcpy(address,"vijayawada");
-    strcpy(phno,"8367230297");
-    strcpy(period,"3");
-
-TEST_ASSERT_EQUAL_STRING("name",name);
-TEST_ASSERT_EQUAL_STRING("address",address);
-TEST_ASSERT_EQUAL_STRING("phno",phno);
-TEST_ASSERT_EQUAL_STRING("period",period);
-}*/
-void test_enter_name(){
-     strcpy(name,"USHA");
-    strcpy(room,"11");
-    strcpy(wifi,"5GB");
-    strcpy(bf,"y");
-
-TEST_ASSERT_EQUAL_STRING("name",name);
-TEST_ASSERT_EQUAL_STRING("room",room);
-TEST_ASSERT_EQUAL_STRING("wifi",wifi);
-TEST_ASSERT_EQUAL_STRING("bf",bf);
-}
-/*void test_room_dealloc(){
-     strcpy(name,"meher");
-    strcpy(roomno,"4");
-    
- 
-
-TEST_ASSERT_EQUAL_STRING("checkout_name",checkout_name);
-TEST_ASSERT_EQUAL_STRING("roomno",roomno);
-
-}
-void test_billing(){
-     strcpy(name,"meher");
-    strcpy(roomno,"4");
-int bill=7200;
-TEST_ASSERT_EQUAL_STRING("name",name);
-TEST_ASSERT(bill==7200);
-
-}*/
-int main(void)
+/*void test_enter_name()
 {
-    /* Initiate the Unity Test Framework */
-    UNITY_BEGIN();
+TEST_ASSERT_EQUAL(1,menu(1));
+TEST_ASSERT_EQUAL(2,menu(2));
+TEST_ASSERT_EQUAL(3,menu(3));
+TEST_ASSERT_EQUAL(4,menu(4));
+TEST_ASSERT_EQUAL(5,menu(5));
+TEST_ASSERT_EQUAL(6,menu(6));
+}*/
 
-    /* Run Test functions */
+void test_find_name()
+{
+   TEST_ASSERT_EQUAL(1, find_name(0));
+}
 
-    RUN_TEST(enter_name);
-    /*RUN_TEST(customer_details);
-    RUN_TEST(room_alloc);
-    RUN_TEST(room_dealloc);
-    RUN_TEST(billing);*/
+void test_checkout_guest()
+{
+  TEST_ASSERT_EQUAL(1,checkout_guest(1));
+}
 
-
-    /* Close the Unity Test Framework */
-    return UNITY_END();
+void test_find_room()
+{
+  TEST_ASSERT_EQUAL(1, find_room(1,"1"));
+  TEST_ASSERT_EQUAL(1,search(1,"random"));
 }
