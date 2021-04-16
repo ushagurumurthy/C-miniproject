@@ -41,7 +41,7 @@ TEST_ASSERT_EQUAL(6,menu(6));
 
 void test_find_name()
 {
-   TEST_ASSERT_EQUAL(1, find_name(0));
+   TEST_ASSERT_EQUAL(1, find_name(1));
 }
 
 void test_checkout_guest()
