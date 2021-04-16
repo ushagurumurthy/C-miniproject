@@ -10,7 +10,7 @@ Process for Unit Testing
 
 
 ## Test Case 1:
-    ![image](https://user-images.githubusercontent.com/67991189/114996429-74781880-9ebc-11eb-944f-86eda01994fd.png)
+    https://github.com/ushagurumurthy/C-miniproject/blob/master/4_TestPlan/testcase1.PNG?raw=true
     1. Login Module
      Username : admin
      Password : admin
