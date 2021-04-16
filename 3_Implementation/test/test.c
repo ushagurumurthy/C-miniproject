@@ -7,7 +7,7 @@
 //void test_enter_name();
 void test_find_name();
 void test_checkout_guest();
-void test_find_room();
+//void test_find_room();
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -23,7 +23,7 @@ int main()
   //RUN_TEST(test_enter_name);
   RUN_TEST(test_find_name);
   RUN_TEST(test_checkout_guest);
-  RUN_TEST(test_find_room);  
+ // RUN_TEST(test_find_room);  
 
   /* Close the Unity Test Framework */
   return UNITY_END();
@@ -49,8 +49,8 @@ void test_checkout_guest()
   TEST_ASSERT_EQUAL(1,checkout_guest(1));
 }
 
-void test_find_room()
+/*void test_find_room()
 {
   TEST_ASSERT_EQUAL(1, find_room(1,"1"));
   TEST_ASSERT_EQUAL(1,search(1,"random"));
-}
+}*/
