@@ -2,7 +2,7 @@
 #include"header.h"
 #include<string.h>
 
-#define PROJECT_NAME "Hotelmanagement"
+#define PROJECT_NAME "HotelManagement"
 
 //void test_enter_name();
 void test_find_name();
