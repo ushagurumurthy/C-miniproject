@@ -10,18 +10,20 @@ Process for Unit Testing
 
 
 ## Test Case 1:
-    ![testcase1](https://user-images.githubusercontent.com/67991189/114998658-cde14700-9ebe-11eb-9a78-4eb610cdd06a.png)
     1. Login Module
      Username : admin
      Password : admin
      This data will be passed and if the user tries to login with other credentials, the test case rest will be failed.
-
+     
+ ![testcase1](https://user-images.githubusercontent.com/67991189/114998658-cde14700-9ebe-11eb-9a78-4eb610cdd06a.png)
+ 
 ## Test Case 2:
     2. Booking Module
       User accept(y) the confirmation
       Test case will pass if rejects(n) will fail the test case
       Note :char y/n will check by ASCII value
-
+      
+https://github.com/ushagurumurthy/C-miniproject/blob/master/4_TestPlan/testcase2.PNG?raw=true
 
 ## Test Case 3:
     3. Cancel Room Module
