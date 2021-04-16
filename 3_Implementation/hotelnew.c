@@ -16,13 +16,13 @@ Although accessing admin privileges requires a password
 //main method
 int main(){
 
-    int b;
+    int a,b,c;
 
     FILE* view;
     FILE *fp;
     FILE* enter;
     char admin_entry[20] = {'y'};
-    //char user_entry[20] = {'y'};
+    char user_entry[20] = {'y'};
      //Welcome screen
 
  	printf("\n\n\t\t*************************************************\n");
@@ -33,20 +33,20 @@ int main(){
 	printf("\t\t*                                               *\n");
 	printf("\t\t*************************************************\n\n\n");
 
-   // printf("\n>>>>>>>>>>>>\tFor ADMIN access enter --> 1 \t\t\t<<<<<<<<<<<<");
-   // printf("\n>>>>>>>>>>>>\tFor USER access enter --> 2 \t\t\t<<<<<<<<<<<<");
+    printf("\n>>>>>>>>>>>>\tFor ADMIN access enter --> 1 \t\t\t<<<<<<<<<<<<");
+    printf("\n>>>>>>>>>>>>\tFor USER access enter --> 2 \t\t\t<<<<<<<<<<<<");
     printf("\n>> ");
-     //scanf("%d",&a);
+    scanf("%d",&a);
 
-        //switch(a){
-           // case 1:{
+        switch(a){
+           case 1:{
                 printf("\n Hello admin!\n Please enter the password to continue --> ");
 
                 system("cls");
 
                 system("color 0A");
 
-                //customer data[20];
+           
                 int c;
                 char pass[9],password[9]="admin123";
                 login:
@@ -127,10 +127,10 @@ int main(){
                     return 0;
                 }
                 break;
-           // }
+           }
 
 
-          /*  case 2:{
+            case 2:{
                 while(user_entry[0] =='y'){
                 printf("\nHello user and welcome to Hotel!");
                 printf("\n>>>>>>>>>>>>\tTo view available rooms --> 1 \t\t\t<<<<<<<<<<<<");
@@ -187,6 +187,6 @@ int main(){
                 }
                 break;
             }
-        }*/
+        }
 }
 
