@@ -27,6 +27,8 @@ Process for Unit Testing
 ## Test Case 3:
     3. Cancel Room Module
        If the guest name exist in the list it will cancel the room and test case will pass ,If it doesn’t exist the test case will fail.
+       
+![image](https://user-images.githubusercontent.com/67991189/114999762-c7070400-9ebf-11eb-95af-a1da77b3fd24.png)
 
 ## Test Case 4:
     4. Validation of Room Module
