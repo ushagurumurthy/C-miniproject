@@ -10,10 +10,10 @@
 * User can login to system to check the Room details and booked rooms
 * User can also verify that his/her room is booked or not.
 
-Build | Code Quality | Unity | [Git Inspector](using github.io option) |
------------------|-----------------|-----------------|-----------------|
-[![C/C++ CI-BUILD](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/cpp.yml/badge.svg?branch=master)](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/cpp.yml)
- |  [![Code Quality - Static Code - Cppcheck](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/cpp_check.yml/badge.svg?branch=master)](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/cpp_check.yml) | [![Unit Testing - Unity](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/unity.yml/badge.svg?branch=master)](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/unity.yml) |[![Contribution Check - Git Inspector](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/git_inspector.yml/badge.svg?branch=master)](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/git_inspector.yml)|
+| Code Quality | Unity | [Git Inspector](using github.io option) |
+|-----------------|-----------------|-----------------|
+| [![C/C++ CI-BUILD](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/cpp.yml/badge.svg?branch=master)](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/cpp.yml)
+  | [![Unit Testing - Unity](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/unity.yml/badge.svg?branch=master)](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/unity.yml) |[![Contribution Check - Git Inspector](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/git_inspector.yml/badge.svg?branch=master)](https://github.com/ushagurumurthy/C-miniproject/actions/workflows/git_inspector.yml)|
  
  
  
