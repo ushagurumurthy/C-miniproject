@@ -16,7 +16,7 @@ void check(void)
  */
 int main(){
     FILE *fp;
-	fp=fopen("hotelnew.txt","r");
+	fp=fopen("bookings.txt","r");
      if(fp == NULL)
     {
         confirm='n';
