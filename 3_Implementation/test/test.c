@@ -1,5 +1,6 @@
 #include"unity.h"
 #include"header.h"
+#include"functions.c"
 #include<string.h>
 
 #define PROJECT_NAME "HotelManagement"
