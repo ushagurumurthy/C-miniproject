@@ -23,8 +23,7 @@ Process for Unit Testing
       Test case will pass if rejects(n) will fail the test case
       Note :char y/n will check by ASCII value
       
-https://github.com/ushagurumurthy/C-miniproject/blob/master/4_TestPlan/testcase2.PNG?raw=true
-
+![image](https://user-images.githubusercontent.com/67991189/114999436-7b545a80-9ebf-11eb-87ac-1e663936675f.png)
 ## Test Case 3:
     3. Cancel Room Module
        If the guest name exist in the list it will cancel the room and test case will pass ,If it doesn’t exist the test case will fail.
