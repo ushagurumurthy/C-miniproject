@@ -5,7 +5,7 @@
 void setUp(){}
 void tearDown(){}
 void testpwd(void){
-	TEST_ASSERT_EQUAL(0,check("potato","potato"));
+	TEST_ASSERT_EQUAL(0,check("admin123","admin123"));
 
 }
 int main()
