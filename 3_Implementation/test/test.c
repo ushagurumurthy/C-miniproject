@@ -1,16 +1,29 @@
-#include "unity_internals.h"
-#include "unity.h"
-#include "header.h"
-
+#include<stdio.h>
+#include "../unity/unity.h"
+#include "../unity/unity_internals.h"
 void setUp(){}
 void tearDown(){}
-void testpwd(void){
-	TEST_ASSERT_EQUAL(0,check("admin123","admin123"));
-
-}
-int main()
+char confirm;
+void check(void)
 {
-	UNITY_BEGIN();
-	RUN_TEST(testpwd);
-	return UNITY_END();
+    TEST_ASSERT_EQUAL('y',confirm);
+}
+/**
+ * @brief Check Whether any room is booked or not
+ * @brief Check File is empty or not
+ * @brief Using unit Test case
+ *
+ */
+int main(){
+    FILE *fp;
+	fp=fopen("hotelnew.txt","r");
+     if(fp == NULL)
+    {
+        confirm='n';
+    }else{
+        confirm='y';
+    }
+    UNITY_BEGIN();
+    RUN_TEST(check);
+    return UNITY_END();
 }
