@@ -9,7 +9,7 @@
 
 
 /**
- * @brief Structure to hold a Details to Book Ticket
+ * @brief Structure to hold a Details to Book Room
  *
  */
 
@@ -25,7 +25,7 @@ typedef struct{
 
 
 
-/*******************************************FUNCTION PROTOTYPE**********************************************************/
+
 //function prototypes to be used
 
 /**
@@ -35,56 +35,54 @@ typedef struct{
  */
 
 /**
- * @brief data process to book a ticket
+ * @brief data process to book a room
  *
  */
-void reservation(void);							//main reservation function
+void reservation(void);							//main booking function
 
 /**
- * @brief Display all the available tickets
+ * @brief Display all the available room
  *
  */
-void viewdetails(void);							//view details of all the trains
+void viewdetails(void);							//view details of all the rooms
 
 /**
- * @brief Use to display the book ticket
+ * @brief Use to display the room booking details
  *
  */
 void display(void);
 
 /**
- * @brief Cancel the user ticket
+ * @brief Cancel the user room
  *
  */
 void cancel(void);
 
 /**
- * @brief Display the user booked ticket
+ * @brief Display the user booked room
  *
- * @param name whose ticket is booked
- * @param int train ticket number
- * @param int number of seats booked
- * @param float price of the ticket
+ * @param name whose room is booked
+ * @param int room number
+ * @param float room charges
  */
-void printbill(char name[],int,float);	//print ticket
+void printbill(char name[],int,float);	//print bill
 
 /**
- * @brief display specific train details
+ * @brief display specific room details
  *
- * @param int train number
+ * @param int room number
  *
  */
-void specificroom(int);						//print data related to specific train
+void specificroom(int);						//print data related to specific room
 
 /**
- * @brief function use to set the price of the ticket according to train selected
+ * @brief function use to set the room charges according to the room selected
  *
- * @param int train number
- * @param int number of seats booked
+ * @param int room number
  *
  * @return float
  */
-float charge(int);							//charge automatically w.r.t number of seats and train
+float charge(int);							//charge automatically w.r.t the room booked
 
 /**
  * @brief initiater used to login the user
@@ -100,7 +98,7 @@ void compute();
 
 
 /**
- * @brief function use to check whther ticket exist or not
+ * @brief function use to check whether the room exists or not
  *
  */
 void validate();
